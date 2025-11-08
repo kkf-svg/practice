@@ -38,3 +38,20 @@ nav ul li a:hover{
 #hero-content{
     text-align: left;
 }
+
+.btn{
+    color: aquamarine;
+    text-decoration: none;
+    list-style-type: none;
+    box-sizing: border-box;
+    border-radius: 2px;
+    padding: 10px 20px;
+    display: inline-block;
+    transition: all 0.3s ease;
+}
+
+.btn:hover{
+    color: blue;
+    background-color: antiquewhite;
+
+}

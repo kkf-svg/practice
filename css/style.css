@@ -1,0 +1,68 @@
+body{
+    background-image: url(../img/banner.jpeg);
+    background-repeat:  no-repeat;
+    background-position:  center center;
+    background-size: cover;
+    background-attachment:  fixed;
+    margin:0;
+}
+nav{
+    background-color: transparent;
+    text-align: center;
+    padding: 10px 0;
+}
+
+nav ul{
+    list-style: none;
+    padding: 0;
+    margin:0;
+    display: inline-block;
+}
+
+nav ul li{
+    display: inline-block;
+    margin: 0 15px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.5em;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color:#333;
+
+}
+
+nav ul li a:hover{
+    color:blueviolet
+}
+
+#hero{
+    width: 70%;
+    float: left;
+    padding: 40px;
+    box-sizing: border-box;
+    color: white;
+}
+
+#hero-content{
+    text-align: left;
+   
+}
+
+.btn{
+    background-color: aliceblue;
+    color: blue;
+    text-decoration: none;
+    list-style-type: none;
+    box-sizing: border-box;
+    border-radius: 2px;
+    padding: 10px 20px;
+    display: inline-block;
+    transition: all 0.3s ease;
+}
+
+.btn:hover{
+    color: blue;
+    background-color: antiquewhite;
+
+}

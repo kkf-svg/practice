@@ -27,3 +27,14 @@ nav ul li a{
 nav ul li a:hover{
     color:blueviolet
 }
+
+#hero{
+    width: 70%;
+    float: left;
+    padding: 40px;
+    box-sizing: border-box;
+}
+
+#hero-content{
+    text-align: left;
+}

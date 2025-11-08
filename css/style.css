@@ -1,5 +1,13 @@
+body{
+    background-image: url(../img/banner.jpeg);
+    background-repeat:  no-repeat;
+    background-position:  center center;
+    background-size: cover;
+    background-attachment:  fixed;
+    margin:0;
+}
 nav{
-    background-color: aquamarine;
+    background-color: transparent;
     text-align: center;
     padding: 10px 0;
 }
@@ -33,14 +41,17 @@ nav ul li a:hover{
     float: left;
     padding: 40px;
     box-sizing: border-box;
+    color: white;
 }
 
 #hero-content{
     text-align: left;
+   
 }
 
 .btn{
-    color: aquamarine;
+    background-color: aliceblue;
+    color: blue;
     text-decoration: none;
     list-style-type: none;
     box-sizing: border-box;
